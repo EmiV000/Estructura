@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main img{
+    max-width: 80%;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    
+}
+.contenido{
+    width: 100%;
+	margin: auto;
+    overflow: hidden;
+}
+
+
+
+.header {
+    height: 200px;
+    background: #efc77c;   
+}
+.header .contenido {
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    margin-top: 100px;   
+    color: #9A6339;
+    font-size: 30px;
+}
+.menu__link:hover {
+    background: rgb(205, 127, 99);
+    color: white;  
+}
+.muestrate{
+   left: 0;
+}
+
+
+/*Banner*/
+.banner img{
+    width: 100%; 
+}
+.banner {
+    position: relative;
+}
+.banner .contenido{ 
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translateX(-30%) translateY(-90%);
+    width: 200%;
+    text-align: center;         
+}
+h1{
+    color:white;
+    font-size: 70px;
+}
+h2{
+    color:white;
+    font-size: 40px;
+}
+ 
+
+/*Bebidas*/
+.bebida{
+    background:  #efc77c;
+    text-align: center;    
+}
+.tit_bebida{
+    color: #9A6339;
+    font-size: 35px;
+    margin-top: 15px;
+    padding: 20px;
+}
+.info_bebida1{
+    font-size: 20px;
+    color:rgb(124, 49, 21) ;
+}
+.img_bebida{
+    width: 150px;
+    border-radius: 50px;
+    position: relative;   
+}
+.nom_bebida{
+    color: #9A6339;
+    font-size: 20px;
+}
+.info_bebida{
+    color: rgb(124, 49, 21);
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+.bebida_fila{
+    margin-left:35px;
+    margin-right: 10px;
+    padding: 25px;
+    float:left;   
+}
+
+/*Comidas*/
+.comida{
+    background: #dd9e6d;  
+    text-align: center;
+    padding: 15px;
+}
+.tit_comida{
+    color:rgb(124, 49, 21);
+    font-size: 35px;
+    margin-top: 15px;
+    padding: 20px;
+}
+.img_comida{
+    width: 150px;
+    border-radius: 50px;
+    position: relative;  
+}
+.info_comida{
+    color:  #8e4813;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.nom_comida{
+    font-size: 15px;
+    color:rgb(124, 49, 21);
+
+}
+.comida_fila{
+    margin-left: 35px;
+    margin-right: 10px;
+    padding: 10px;
+    float:left;
+}
+
+/*Clientes*/
+.clientes{
+    background:  #efc77c;
+    text-align: center;  
+}
+.tit_clientes{
+    color: #9A6339;
+    font-size: 35px;
+    margin-top: 15px;
+    padding: 20px;
+}
+.info_clientes1{
+    font-size: 20px;
+    color:rgb(124, 49, 21);
+    padding: 5px;
+}
+.img_clientes{
+    width: 400px;
+    border-radius: 50px;
+    position: relative; 
+    padding-bottom: 15px; 
+}
+.info_clientes{
+    color: rgb(124, 49, 21);
+    text-align: center;
+    font-size: 15px;
+    padding:20px;
+   
+}
+.cliente_fila{
+    margin-left: 35px;
+    margin-right: 10px;
+    padding: 10px;
+    float: left;
+}
+
+
+/*Ubicación*/
+.ubicacion{
+    background:#dd9e6d ;
+}
+.tit_ubi{
+    color:rgb(124, 49, 21);
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 15px;
+}   
+.info_ubi{
+    color:  #8e4813;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+/*Pie de página*/
+.pie_pagina{
+    background: #dd9e6d;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+.tit_pie{
+    color:rgb(124, 49, 21);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+.img_pie{
+    width: 80px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.info_pag{
+    color:  #8e4813;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
